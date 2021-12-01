@@ -1,0 +1,10 @@
+You are only allowed to change predictor.cc and predictor.h. You should not modify or create any new 
+files in this directory. Make sure you run the executable only from the runs directory (or any sub-directory
+within the runs directory.
+
+To compile: make
+
+To run (inside runs directory): ../cbp3 -t ../<path_to_zipped_trace_file> > ./<output_file.txt>
+Example: ../cbp3 -t ../trace_test.bz2 > output.txt
+
+To run the autograder: ./generateScore.pl --from runs/

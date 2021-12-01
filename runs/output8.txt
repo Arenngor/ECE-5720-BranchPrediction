@@ -1,0 +1,63 @@
+********************  CBP3  Start ***********************
+Trace:            ../CLIENT08.bz2
+Uops to simulate: Whole Trace
+
+Trace is compressed by bzip2.
+
+Loading trace...
+Trace: start_cycle:2020348 end_cycle:23171888 start fetch_q:63 alloc_q:63
+Trace loaded.
+
+Reader max_mem: 167.88 M
+Reader info_mem: 1.20 M
+
+*********  RUN  1   *********
+Two Bit
+Trace signature self checking: passed!
+
+Total cycles:                         21151541
+
+Num_Inst:                             28288713
+Num_Uops:                             50000001
+
+Num_cond_br:                          3488924
+Mispred_cond_br:                      282097
+Mispred_penalty_cond_br:              24286202
+Final Score Run1_Conditional_MPPKI:   858.5121
+
+Simulation Time: 19 Seconds
+
+*********  RUN  2   *********
+G-Select
+Trace signature self checking: passed!
+
+Total cycles:                         21151541
+
+Num_Inst:                             28288713
+Num_Uops:                             50000001
+
+Num_cond_br:                          3488924
+Mispred_cond_br:                      461608
+Mispred_penalty_cond_br:              40126695
+Final Score Run2_Conditional_MPPKI:   1418.4702
+
+Simulation Time: 20 Seconds
+
+*********  RUN  3   *********
+G-Share
+Trace signature self checking: passed!
+
+Total cycles:                         21151541
+
+Num_Inst:                             28288713
+Num_Uops:                             50000001
+
+Num_cond_br:                          3488924
+Mispred_cond_br:                      185332
+Mispred_penalty_cond_br:              16493241
+Final Score Run3_Conditional_MPPKI:   583.0326
+
+Simulation Time: 19 Seconds
+
+********************  CBP3  End   ***********************
+Total Simulation Time: 63 Seconds
